@@ -38,9 +38,6 @@ class LoginActivity : AppCompatActivity() {
                     startActivity(intnet)
                 }
 
-
-
-
                 /*val fragmentManager = supportFragmentManager
                 val fragmentTransaction = fragmentManager.beginTransaction()
                 val menufragment = fragmentManager.findFragmentById(R.id.fragment_one) as MenuFragment
@@ -48,14 +45,10 @@ class LoginActivity : AppCompatActivity() {
 
                 fragmentTransaction.commit()*/
 
-
-
             }
             else
                 toast("Try Again")
-
         }
-
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
